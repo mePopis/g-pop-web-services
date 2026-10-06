@@ -73,3 +73,42 @@ footer {
 a {
     color: #1d70b8;
 }
+
+.print-button {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  margin-bottom: 24px;
+  padding: 10px 16px;
+  border: 1px solid #0b0c0c;
+  background-color: #ffffff;
+  color: #0b0c0c;
+  font: inherit;
+  cursor: pointer;
+}
+
+.print-button:hover {
+  background-color: #f3f2f1;
+}
+
+@media print {
+  header,
+  footer,
+  .breadcrumbs,
+  .contents,
+  .print-button {
+    display: none;
+  }
+
+  body {
+    display: block;
+    color: #000000;
+    background-color: #ffffff;
+  }
+
+  main {
+    margin: 0;
+    padding: 0;
+    max-width: none;
+  }
+}
