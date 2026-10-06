@@ -39,3 +39,37 @@ footer {
     border-top: 1px solid #b1b4b6;
     background-color: #f3f2f1;
 }
+
+.breadcrumbs {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+    margin: 0 0 24px;
+    padding: 0;
+    list-style: none;
+    font-size: 16px;
+}
+
+.breadcrumbs li + li::before {
+    content: ">";
+    margin-right: 8px;
+}
+
+.breadcrumbs a {
+    color: #0b0c0c;
+}
+
+.contents {
+    margin-bottom: 40px;
+    padding: 20px;
+    border-left: 4px solid #1d70b8;
+    background-color: #f3f2f1;
+}
+
+.conntent h2 {
+    margin-top: 0;
+}
+
+a {
+    color: #1d70b8;
+}
