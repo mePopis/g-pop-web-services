@@ -33,3 +33,14 @@ themeToggle.addEventListener("change", function () {
     // The selected theme still applies without being saved.
   }
 });
+
+const feedbackButtons = document.querySelectorAll(".feedback-button");
+const feedbackMessage = document.getElementById("feedback-message");
+
+feedbackButtons.forEach(function (button) {
+  button.addEventListener("click", function () {
+    feedbackMessage.textContent =
+      "Thank you! This is a demo, so your feedback has not been sent.";
+  });
+});
+
