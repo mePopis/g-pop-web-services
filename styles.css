@@ -226,3 +226,51 @@ body.dark-mode .print-button:hover {
     color: #000000;
   }
 }
+
+.page-feedback {
+  margin-top: 48px;
+  padding-top: 24px;
+  border-top: 1px solid #b1b4b6;
+}
+
+.feedback-row {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.feedback-row h2 {
+  margin: 0;
+  font-size: 19px;
+}
+
+.feedback-buttons {
+  display: flex;
+  gap: 10px;
+}
+
+.feedback-button {
+  width: 100px;
+  padding: 8px 12px;
+  border: 1px solid currentColor;
+  background-color: transparent;
+  color: inherit;
+  font: inherit;
+  cursor: pointer;
+}
+
+.feedback-button:hover {
+  text-decoration: underline;
+}
+
+.feedback-button:focus-visible {
+  outline: 3px solid #ffdd00;
+  outline-offset: 3px;
+}
+
+@media print {
+  .page-feedback {
+    display: none;
+  }
+}
