@@ -13,6 +13,7 @@ body {
 
 h1 {
     color: #1d70b8;
+    font-size: clamp(32px, 4vw, 38px);
 }
 
 header {
@@ -323,4 +324,21 @@ body.dark-mode .print-button:hover {
 main > section {
   margin-top: 40px;
   scroll-margin-top: 90px;
+}
+
+@media screen and (max-width: 600px) {
+  main {
+    box-sizing: border-box;
+    width: 100%;
+    padding: 40px 24px;
+  }
+
+  h1 {
+    font-size: clamp(32px, 4vw, 38px);
+    overflow-wrap: break-word;
+  }
+
+  .report-button {
+    width: 100%;
+  }
 }
