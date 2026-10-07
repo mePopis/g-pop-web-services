@@ -319,3 +319,8 @@ body.dark-mode .print-button:hover {
   outline: 3px solid #ffdd00;
   outline-offset: 3px;
 }
+
+main > section {
+  margin-top: 40px;
+  scroll-margin-top: 90px;
+}
