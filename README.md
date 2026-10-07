@@ -8,6 +8,10 @@ Success Profiles: Experience page, with my own branding
 and additional interactive features. 
 This is an independent learning project.
 
+## Live website
+
+[View the live website](https://mepopis.github.io/g-pop-web-services/)
+
 ## Features
 
 - Responsive page layout
