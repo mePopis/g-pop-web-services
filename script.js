@@ -44,3 +44,23 @@ feedbackButtons.forEach(function (button) {
   });
 });
 
+const reportToggle = document.getElementById("report-toggle");
+const reportForm = document.getElementById("report-form");
+
+reportToggle.addEventListener("click", function () {
+  const isOpening = reportForm.hidden;
+
+  reportForm.hidden = !isOpening;
+  reportToggle.setAttribute("aria-expanded", String(isOpening));
+});
+
+const reportMessage = document.getElementById("report-message");
+
+reportForm.addEventListener("submit", function (event) {
+  event.preventDefault();
+
+  reportMessage.textContent =
+    "Thank you! This is a demo, so your report has not been sent.";
+
+  reportForm.reset();
+});

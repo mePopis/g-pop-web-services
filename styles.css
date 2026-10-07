@@ -294,3 +294,28 @@ body.dark-mode .print-button:hover {
   outline: 3px solid #ffdd00;
   outline-offset: 3px;
 }
+
+.report-form {
+  margin-top: 24px;
+}
+
+.report-form label {
+  display: block;
+  margin-bottom: 8px;
+  font-weight: bold;
+}
+
+.report-form textarea {
+  box-sizing: border-box;
+  width: 100%;
+  padding: 10px;
+  border: 2px solid currentColor;
+  background-color: transparent;
+  color: inherit;
+  font: inherit;
+}
+
+.report-form textarea:focus-visible {
+  outline: 3px solid #ffdd00;
+  outline-offset: 3px;
+}

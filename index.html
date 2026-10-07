@@ -61,7 +61,29 @@
                     </div>
                 </div>
                 <p id="feedback-message" role="status"></p>
-                <button id="report-toggle" class="report-button" type="button">Report a problem with this page</button>
+                <button 
+                id="report-toggle" 
+                class="report-button" 
+                type="button" 
+                aria-expanded="false" 
+                aria-controls="report-form"
+                >
+                Report a problem with this page
+                </button>
+                <form id="report-form" class="report-form" hidden>
+                    <p>This is a demo. Your report will not be sent or stored.</p>
+                    <label for="report-details">What went wrong?</label>
+                    <textarea
+                    id="report-details"
+                    name="report-details"
+                    rows="4"
+                    required>
+                    </textarea>
+                    <button type="submit" class="report-button">
+                    Submit demo report
+                    </button>
+                    <p id="report-message" role="status"></p>
+                </form>
             </section>
         </main>
 
