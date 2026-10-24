@@ -4,9 +4,7 @@ const themeLabel = document.getElementById("theme-label");
 function applyTheme(darkModeEnabled) {
   document.body.classList.toggle("dark-mode", darkModeEnabled);
   themeToggle.checked = darkModeEnabled;
-  themeLabel.textContent = darkModeEnabled
-    ? "Light mode"
-    : "Dark mode";
+  themeLabel.textContent = "Dark mode";
 }
 
 let savedTheme = null;
