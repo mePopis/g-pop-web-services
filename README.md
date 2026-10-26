@@ -1,12 +1,16 @@
 # G Pop Web Services
 
-My first portfolio website, built step by step with HTML, CSS
-and JavaScript, with guidance from ChatGPT.
+A learning project inspired by the GOV.UK Success Profiles: Experience page,
+built step by step with HTML, CSS and JavaScript.
 
-A learning project recreating the layout of the GOV.UK
-Success Profiles: Experience page, with my own branding
-and additional interactive features. 
-This is an independent learning project.
+I used Git through the terminal to track changes, and GitHub and GitHub Pages
+to share the code and publish the website.
+
+ChatGPT provided guidance throughout – especially on terminal commands, the Git and GitHub
+workflow, and the final project tidy-up.
+
+The page uses my own branding and additional interactive features.
+This is an independent learning project, not affiliated with GOV.UK.
 
 ## Live website
 
