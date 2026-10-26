@@ -16,6 +16,10 @@ This is an independent learning project, not affiliated with GOV.UK.
 
 [View the live website](https://mepopis.github.io/g-pop-web-services/)
 
+## Preview
+
+![G Pop Web Services page showing its heading, contents navigation and light-mode layout](assets/images/govuk-page-desktop.png)
+
 ## Features
 
 - Responsive page layout
